@@ -1,0 +1,166 @@
+
+
+.main-screen{
+    background: url('../assets/backgrounds/bg-1.jpg');
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
+
+.a-menu-bar{
+    width: 115px !important;
+}
+.avatar-border{
+    border-radius: 50px !important;
+    border: 5px solid  !important;
+    border-image: linear-gradient(45deg,green,aqua) 10 !important;
+    
+}
+
+.c-block-container{
+    position: relative;
+}
+
+
+.img-in-bg{
+    background-position: center center !important;
+    background-repeat: no-repeat  !important;
+    background-size: contain !important;
+}
+
+
+
+
+
+/* text-css */
+.menu-button-text{
+    font-weight: 500 !important;
+    font-size: 18px;
+    font-family: Cambria;
+}
+.ff-Cambria{    
+    font-family: Cambria;
+}
+.d-money-number{
+    border-radius: 0%;
+    border: 2px solid;  
+    border-image: linear-gradient(45deg,yellow,orange) 10;
+}
+/*-----------------------------------------------Position-----------------------------------------------*/
+.top-0{
+    position: absolute;
+    top: 0;
+}
+
+.pt-200px{
+    padding-top: 200px !important;
+}
+/*-----------------------------------------------Size-----------------------------------------------*/
+
+
+
+/* fix-height */
+.h-600px{
+    height: 600px;
+}
+.h-500px{
+    height: 500px;
+}
+.h-400px{
+    height: 400px;
+}
+.h-300px{
+    height: 300px;
+}
+.h-200px{
+    height: 200px;
+}
+.h-150px{   
+    height: 150px; 
+}
+.h-100px{
+    height: 100px;
+}
+.h-50px{   
+    height: 50px; 
+}
+
+/* fix-with */
+.w-600px{
+    width: 600px;
+}
+.w-500px{
+    width: 500px;
+}
+.w-400px{
+    width: 400px;
+}
+.w-300px{
+    width: 300px;
+}
+.w-200px{
+    width: 200px;
+}
+.w-150px{   
+    width: 150px; 
+}
+.w-100px{
+    width: 100px;
+}
+.w-50px{   
+    width: 50px; 
+}
+
+
+
+
+/* -----------------------------------------------Dynamic css -----------------------------------------------*/
+
+@media screen and ( min-width: 0px) and ( max-width: 650px) {
+    .c-block-container{
+        width: 50% !important;
+        padding-top: 35% !important;
+        max-height: 50% !important;
+    }
+}
+
+@media screen and ( min-width: 651px) and ( max-width: 1249px) {
+    .c-block-container{
+        width: 33.333333333% !important;
+        padding-top: 35% !important;
+        max-height: 50% !important;
+    }
+}
+
+@media screen and ( min-width: 1250px) {
+    
+    .c-block-container{
+        width: 20% !important;
+        padding-top: 24% !important;
+        max-height: 50% !important;
+    }
+}
+/* -----------------------------------------------HTML CSS -----------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ededed10;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525252;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+

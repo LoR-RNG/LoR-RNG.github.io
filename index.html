@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>LoR</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/formats/queue_select_eternal_toggle_active.png">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+</head> 
+
+<body>
+    <div class="main-screen d-flex flex-row w-100 h-100 ">
+        <div class="a-menu-bar h-100 bg-secondary bg-opacity-50">
+            <div class="b-menu-group w-100 h-100 d-flex flex-column justify-content-center align-items-center ">
+                <div class="c-menu-button w-100 h-100px d-flex flex-column justify-content-center align-items-center pb-1">
+                    <img class="w-50px h-50px" src="assets/icons/sets/set1.png">
+                    <span class="text-light menu-button-text">Trang chủ</p>
+                </div>
+                <div class="c-menu-button w-100 h-100px d-flex flex-column justify-content-center align-items-center pb-1">
+                    <img class="w-50px h-50px" src="assets/icons/sets/set1.png">
+                    <span class="text-light menu-button-text">Bộ sưu tập</p>
+                </div>
+                <div class="c-menu-button w-100 h-100px d-flex flex-column justify-content-center align-items-center pb-1">
+                    <img class="w-50px h-50px" src="assets/icons/sets/set1.png">
+                    <span class="text-light menu-button-text">Phần thưởng</p>
+                </div>
+                <div class="c-menu-button w-100 h-100px d-flex flex-column justify-content-center align-items-center pb-1">
+                    <img class="w-50px h-50px" src="assets/icons/sets/set1.png">
+                    <span class="text-light menu-button-text">Cửa hàng</p>
+                </div>
+            </div>
+        </div>
+        <div class="a-content-screen flex-grow-1 d-flex flex-column">
+            <div class="b-avatar-group d-flex flex-row">
+                <div class="c-avartar flex-row px-3 py-3">
+                    <div class="w-100px h-100px d-flex avatar-border ">
+                        <img class="" src="assets/avatars/avatar-1.jpg">
+                    </div>
+                </div>
+                <div class="c-currency w-150px h-100px py-3">
+                    <div
+                        class="d-money-number w-150px h-75 bg-dark rounded-5 d-flex flex-row justify-content-center align-items-center">
+                        <span class="text-light fw-bold ff-Cambria">9999</span>
+                        <div class="h-50 d-flex">
+                            <img class="" src="assets/icons/formats/queue_select_standard_toggle_active.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-grow-1 d-flex px-3 py-3 justify-content-end align-items-end">
+                    <div class="d-flex h-50 w-100 flex-row justify-content-end align-items-center">
+                        <div role="button" class="text-light ff-Cambria fs-5 px-3 "><div class="border border-success rounded-5 py-1 px-4">Hộp bài</div> </div>
+                        <div role="button" class="text-light ff-Cambria fs-5 px-3 "><div class="border border-success rounded-5 py-1 px-4">Hộp bài</div> </div>
+                        <div role="button" class="text-light ff-Cambria fs-5 px-3 "><div class="border border-success rounded-5 py-1 px-4">Hộp bài</div> </div>
+                        <div role="button" class="text-light ff-Cambria fs-5 px-3 "><div class="border border-success rounded-5 py-1 px-4">Hộp bài</div> </div>
+                    </div>
+                </div>
+            </div>
+            <div id="store-content" class="b-content-group bg-dark bg-opacity-50 d-flex flex-grow-1 flex-wrap overflow-auto">
+                
+                
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="lor-template" class="d-none">
+        <!--Khung vật phẩm-->
+        <div id="lor-card-" class="c-block-container d-flex">
+            <div class="d-flex h-100 w-100 top-0 px-2 py-2">
+                <div class="h-100 w-100 border border-2 border-secondary rounded-3 d-flex flex-column">
+                    <div class="flex-grow-1 w-100 px-4 py-4 position-relative">
+                        <div class="position-absolute end-0 top-0 pt-3 pe-2 "><span class="badge rounded-pill bg-success text-bg-success fs-6">lorCardPrice</span> </div>
+                        <div class="w-100 h-100" style="background: url('lorCardAvatar') no-repeat center center;background-size: contain;"></div>
+                    </div>
+                    <div class="border-top border-secondary text-light ff-Cambria fs-4 h-50px w-100 d-flex justify-content-center align-items-center">
+                        lorCardName
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+
+    </div>
+    
+</body>
+    
+<script src="js/lib/jquery-3.7.0.min.js"></script>
+<script src="js/store-scripts.js"></script>
+</html>
